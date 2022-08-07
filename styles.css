@@ -115,6 +115,7 @@ a:hover {
   position: absolute;
   left: 300px;
   bottom: 300px;
+  margin-bottom:50px;
 }
 .cloud1{
   position: absolute;
