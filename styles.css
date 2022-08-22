@@ -156,6 +156,11 @@ a:hover {
   margin-top: 130px;
   margin-bottom: 130px;
 }
+@media screen (max-width:900px){
+  .study{
+    float:top;
+  }
+}
 .act{
   width:25%;
   float: left;
