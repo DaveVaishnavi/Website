@@ -156,7 +156,7 @@ a:hover {
   margin-top: 130px;
   margin-bottom: 130px;
 }
-@media screen (max-width:900px){
+@media screen and (max-width:900px){
   .study{
   margin: 2px 2px 2px 2px;
   }
