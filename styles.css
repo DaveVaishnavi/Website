@@ -158,8 +158,8 @@ a:hover {
 }
 @media screen (max-width:900px){
   .study{
-    float:none;
-  }
+display: inline-block;
+    vertical-align: top;  }
 }
 .act{
   width:25%;
