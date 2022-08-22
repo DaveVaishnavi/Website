@@ -4,6 +4,9 @@
   margin-right: 10px;
   padding-top: 10px;
 }
+.heading{
+display:flex;
+}
 body{
   background-color:#1B1A17;
   margin: 0;
