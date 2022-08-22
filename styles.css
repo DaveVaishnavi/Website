@@ -158,7 +158,7 @@ a:hover {
 }
 @media screen (max-width:900px){
   .study{
-    float:top;
+    float:none;
   }
 }
 .act{
