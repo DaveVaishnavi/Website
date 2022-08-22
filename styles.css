@@ -328,7 +328,7 @@ body
   padding:0;
   background:#262626;
 }
-.ring
+/* .ring
 {
   position:absolute;
   top:50%;
@@ -408,4 +408,4 @@ span:before
   {
     transform:rotate(405deg);
   }
-}
+} */
