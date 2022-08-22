@@ -123,34 +123,34 @@ a:hover {
   top:50px;
 }
 .coding{
-  width:25%;
-  float: right;
+  width:10%;
+/*   float: right; */
   margin-left: 30px;
 }
 .space{
-  width: 25%;
-  float: right;
+  width: 10%;
+/*   float: right; */
   margin-left: 30px;
 }
 .cert{
-  width: 25%;
-  float: left;
+  width: 10%;
+/*   float: left; */
   margin-right: 30px;
   margin-top: 200px;
   align-items: center;
   margin-bottom: 100px;
 }
 .project{
-  width:25%;
-  float:left;
+  width:10%;
+/*   float:left; */
   margin-right: 30px;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 110px;
 }
 .study{
-  width: 25%;
-  float: left;
+  width: 10%;
+/*   float: left; */
   margin-right: 30px;
   align-items: center;
   margin-top: 130px;
@@ -162,16 +162,16 @@ a:hover {
   }
 }
 .act{
-  width:25%;
-  float: left;
+  width:10%;
+/*   float: left; */
   margin-right: 50px;
   align-items: center;
   margin-top:50px;
   margin-bottom: 50px;
 }
 .award{
-  width:25%;
-  float: right;
+  width:10%;
+/*   float: right; */
   margin-left: 30px;
   align-items: center;
   margin-top:75px;
