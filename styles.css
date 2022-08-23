@@ -10,6 +10,7 @@
 .testimonial{
   width:20%;
   margin:20px;
+  height: 400px;
 }
 .testimonial-image{
   width:40%;
@@ -200,10 +201,6 @@ a:hover {
   margin-top: 130px;
   margin-bottom: 130px; */
 }
-@media screen and (max-width:900px){
-  .study{
-  margin: 2px 2px 2px 2px;
-  }
 }
 .act{
   width:20%;
