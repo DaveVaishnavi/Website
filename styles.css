@@ -6,7 +6,7 @@
 }
 .testimonial{
   width:20%;
-  margin:20px;
+/*   margin:20px; */
 }
 .carousel .carousel-item{
 height: 1000px;}
@@ -21,7 +21,6 @@ html body {
     background-color: #1B1A17;
 
 }
-body {   background-color:#1B1A17 !important; }
 #project_slide{
   text-align: center;
 }
