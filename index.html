@@ -6,6 +6,10 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -99,51 +103,85 @@
            <h2><font color=#E45826>Projects</font></h2>
         </div>
         
-       
-        <ul>
-          <li>
-            <a href="https://drive.google.com/file/d/17fUXEPEdxQ-AOYRoDypZ7OByk_TGuF8z/view?usp=sharing">Sun-Tracking Solar Panel</a><br>
-Made a sun-tracking system that tracks the position of the sun
-
-through its circuitry of LDRs, servo motors and Arduino UNO          </li>
-          <li>
-            <a href="">LED Propellor Clock</a><br>
-Making an analog clock dial with a digital display using LEDs, Arduino Nano and motors along with the basic components 
-          </li>
-          <li>
-          <a href="https://devfolio.co/projects/learn-it-easy-0652">Learn it Easy !</a><br>
-Developed a flash-card language learning app “Learn it Easy”
-
-that helps users to learn words of various languages along with
-their pronunciation        </li>
-        <li>
-          <a href="">Sleep Tracker</a><br>
+       <section id="project_slide">
+    <div id="project-carousel" class="carousel slide" data-bs-ride="carousel" data-pause="hover" data-bs-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2> <a href="">Sleep Tracker</a><br></h2>
+          <p>
 Made a web-app that helps you manage your sleep schedule
-        </li>
-        <li>
-          <a href="https://drive.google.com/drive/folders/13zUQE9ohO0eYlxEKQuvGxDwc6uyimuUW?usp=sharing">Pomodoro App</a><br>
-Made a terminal-based app that helps students implement the ancient technique of Pomodoro learning to increase concentration 
-        </li>
-        <li>
-          <a href="https://drive.google.com/drive/folders/1Z1F70s_RwTnBGfOX_9OfpHHAj8yQJa0C?usp=sharing">Password Manager</a><br>
-Made a terminal-based app that manages your passwords
-        </li>
-        <li>
-          <a>Stock Alert App</a><br>
-Made a notifying app that tells the user about fluctuations of
-
-stock prices above a threshold        </li>
-<li>
-          <a>Assignment Review System</a><br>
-A review platform for both students and the reviewers that very effectively facilitates the process of assignment submission and reviewing
-        </li>
-<li>
-          <a>Anonymous Hope</a><br>
+          </p>
+          <br />
+          <img class="testimonial-image" src="images/1.png">
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text"><a href="https://devfolio.co/projects/learn-it-easy-0652">Learn it Easy !</a><br>
+          </h2>
+          <p>
+Developed a flash-card language learning app “Learn it Easy”
+that helps users to learn words of various languages along with
+their pronunciation            </p>
+          <img class="testimonial-image" src="images/2.png">
+        </div>
+         <div class="carousel-item">
+          <h2 class="testimonial-text">          <a>Anonymous Hope</a><br>
+          </h2>
+          <p>
 Making a local crowd-funding web-app that allows the user to
-
-both raise funds and contribute to the needy        </li>
-        </ul>
+both raise funds and contribute to the needy           </p>
+          <img class="testimonial-image" src="images/3.png">
+        </div>
+         <div class="carousel-item">
+          <h2 class="testimonial-text">          <a>Stock Alert App</a><br>
+Made a notifying app that tells the user about fluctuations of<br>
+          </h2>
+          <p>
+Made a notifying app that tells the user about fluctuations of your selected stocks           </p>
+          <img class="testimonial-image" src="images/4.png">
+        </div>
+<!--          <div class="carousel-item">
+          <h2 class="testimonial-text">   <a>Assignment Review System</a><br>
+<br>
+          </h2>
+          <p>
+A review platform for both students and the reviewers that very effectively facilitates the process of assignment submission and reviewing      </p>
+          <img class="testimonial-image" src="images/5.png">
+        </div> -->
+         <div class="carousel-item">
+          <h2 class="testimonial-text"> <a href="https://drive.google.com/drive/folders/1Z1F70s_RwTnBGfOX_9OfpHHAj8yQJa0C?usp=sharing">Password Manager</a><br>
+          </h2>
+          <p>
+Made a terminal-based app that manages your passwords<br>        </p>
+          <img class="testimonial-image" src="images/6.png">
+        </div>
+<!--          <div class="carousel-item">
+          <h2 class="testimonial-text"> <a href="https://drive.google.com/drive/folders/13zUQE9ohO0eYlxEKQuvGxDwc6uyimuUW?usp=sharing">Pomodoro App</a><br>
+<br>
+          </h2>
+          <p>
+Made a terminal-based app that helps students implement the ancient technique of Pomodoro learning to increase concentration          </p>
+          <img class="testimonial-image" src="images/7.png">
+        </div> -->
+         <div class="carousel-item">
+          <h2 class="testimonial-text">  <a href="https://drive.google.com/file/d/17fUXEPEdxQ-AOYRoDypZ7OByk_TGuF8z/view?usp=sharing">Sun-Tracking Solar Panel</a><br>
+          </h2>
+          <p>
+Made a sun-tracking system that tracks the position of the sun
+through its circuitry of LDRs, servo motors and Arduino UNO   <br></p>
+          <img class="testimonial-image" src="images/8.png">
+        </div>
+         <div class="carousel-item">
+          <h2 class="testimonial-text"> <a href="">LED Propellor Clock</a><br>
+          </h2>
+          <p>
+Making an analog clock dial with a digital display using LEDs, Arduino Nano and motors along with the basic components <br>
+         </p>
+          <img class="testimonial-image" src="images/9.png">
+        </div>
       </div>
+    </div>
+  </section>
+        
     <br>
       <br>
       <div class="skill-row">
