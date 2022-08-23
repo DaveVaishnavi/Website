@@ -6,15 +6,13 @@
 }
 #project_slide{
   padding: 7% 15%;
-  text-align: center;
-  background-color: #bfbfbf;
 }
 .testimonial{
   width:20%;
   margin:20px;
 }
 .testimonial-image{
-  width:60%;
+  width:40%;
 }
 .heading{
  display: flex;
