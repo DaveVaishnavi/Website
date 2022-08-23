@@ -4,6 +4,10 @@
   margin-right: 10px;
   padding-top: 10px;
 }
+.testimonial{
+  width:20%;
+  margin:20px;
+}
 .carousel .carousel-item{
 height: 500px;}
 .carousel-item img {
@@ -19,14 +23,9 @@ html body {
 }
 body {   background-color:#1B1A17 !important; }
 #project_slide{
-  padding: 7% 15%;
+  text-align: center;
 }
-.testimonial{
-  width:20%;
-  margin:20px;
-  height: 400px;
-   text-align:center;
-}
+
 .testimonial-image{
   width:50%;
   align:center;
