@@ -34,7 +34,7 @@
   margin-bottom:10px;
   text-align:center;
 }
-.proj_image {
+/* .proj_image {
     visibility:hidden;
     visibility:visible\9;/*For old IE browsers IE6-8 */
 }
@@ -57,7 +57,7 @@
         opacity: 1;
         transform: translateX(0);
     } 
-}
+} */
 
 
 .heading{
