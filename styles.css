@@ -59,7 +59,7 @@
     } 
 } */
 
-@import "bourbon";
+/* @import "bourbon";
 @import "neat";
 
 $base-duration: 500ms;
@@ -91,7 +91,7 @@ $lg: new-breakpoint(min-width 1024px);
 }
 
 
-
+ */
 
 .heading{
 display:flex;
