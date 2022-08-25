@@ -1,5 +1,6 @@
-.typewriter {
+.typewriter h1{
   color: #E45826;
+  font-family: 'Sacramento', cursive;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; Keeps the content on a single line
@@ -9,15 +10,9 @@
     typing 3.5s steps(13,27),
     blink-caret .5s step-end infinite;
 }
-#h1_text{
-  font-family: 'Sacramento', cursive;
-}
-#h2_text{
-  font-family: 'Montserrat', sans-serif;
-}
 @keyframes typing {
-  from { max-width: 0 }
-  to { max-width: 100% }
+  from { width: 0 }
+/*   to { width: } */
 }
 
 @keyframes blink-caret {
