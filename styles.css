@@ -1,6 +1,4 @@
 .typewriter h1 {
-  width: auto;
-  display: inline-block;
   color: #E45826;
 font-family: 'Sacramento', cursive;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -13,8 +11,6 @@ font-family: 'Sacramento', cursive;
     blink-caret .5s step-end infinite;
 }
 .typewriter h2 {
-  width: auto;
-  display: inline-block;
   color: #E45826;
  font-family: 'Montserrat', sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
